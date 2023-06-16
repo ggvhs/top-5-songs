@@ -1,3 +1,20 @@
+input{
+   
+    border: 1px solid salmon;
+    
+}
+
+body{
+    background-color: #68b0b1;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 input[type="text"]{
     color: grey;
 }
@@ -5,3 +22,15 @@ input[type="text"]{
 input[type="text"]:focus{
     color:black
 }
+
+.box{
+    border-radius: 16px;
+    background: #68b0b1;
+    box-shadow:  12px 12px 27px #538d8e,
+             -12px -12px 27px #7dd3d4;
+    width: 300px;
+    height: 100px
+}
+
+
+
