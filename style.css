@@ -1,6 +1,6 @@
 input{
    
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     
 }
 
@@ -17,20 +17,62 @@ div{
 
 input[type="text"]{
     color: grey;
+    background: transparent;
+    font-size: 15px;
+    padding: 40px 53px;
+    
+    border: none;
 }
 
 input[type="text"]:focus{
     color:black
 }
 
+input:focus {
+    outline: none;
+  }
+
+
 .box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     border-radius: 16px;
     background: #68b0b1;
     box-shadow:  12px 12px 27px #538d8e,
              -12px -12px 27px #7dd3d4;
     width: 300px;
-    height: 100px
+    height: 100px;
+    margin-bottom: 100px;
+    
+    
 }
 
+.box2{
+    border-radius: 16px;
+    background: #68b0b1;
+    box-shadow:  12px 12px 27px #538d8e,
+             -12px -12px 27px #7dd3d4;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.box input,
+.box2 input {
+   /* Adjust the value as per your requirement */
+}
+
+button{
+    border-radius: 16px;
+    background: #68b0b1;
+    box-shadow:  12px 12px 27px #538d8e,
+             -12px -12px 27px #7dd3d4;
+    width: 900px;
+    height: 100px;
+    outline: none;
+    border: none;
+    
+}
 
 
